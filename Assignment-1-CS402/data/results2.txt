@@ -1,0 +1,43 @@
+---------------------------------------------------------------
+Using the column by row multiplication method
+Integer matrix multiplication
+--- 41.97942566871643 seconds ---
+--- 41.557299852371216 seconds ---
+--- 41.56851863861084 seconds ---
+--- 41.92781352996826 seconds ---
+--- 41.98966026306152 seconds ---
+
+Double float matrix multiplication
+--- 38.339619874954224 seconds ---
+--- 38.32662868499756 seconds ---
+--- 38.776578426361084 seconds ---
+--- 38.24934792518616 seconds ---
+--- 38.102004289627075 seconds ---
+
+---------------------------------------------------------------
+
+Using a new and improved multiplication method (numpy dot product)
+Integer matrix multiplication
+--- 0.044840097427368164 seconds ---
+--- 0.044298648834228516 seconds ---
+--- 0.044983863830566406 seconds ---
+--- 0.04472494125366211 seconds ---
+--- 0.04457521438598633 seconds ---
+
+Double float matrix multiplication
+--- 0.002059459686279297 seconds ---
+--- 0.0013976097106933594 seconds ---
+--- 0.0013942718505859375 seconds ---
+--- 0.001421213150024414 seconds ---
+--- 0.001417398452758789 seconds ---
+-----------------System Info-----------------
+OS:  Linux
+Release:  5.4.0-45-generic
+Version:  #49-Ubuntu SMP Wed Aug 26 13:38:52 UTC 2020
+Python version:  3.11.5.final.0 (64 bit)
+Architecture:  X86_64
+Brand Name:  Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz
+RAM:   8087969792
+L3 cache:  8388608
+L2 cache:  2 MiB
+L1 cache:  192 KiB
